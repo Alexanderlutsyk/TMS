@@ -1,15 +1,18 @@
-lst_seq = input() 
-print(map(chr, range(ord(lst_seq))))
+import string
+
+a = string.ascii_lowercase
+b = string.ascii_uppercase
+d = string.digits
 psw = list(input())
 digit = False 
 upper = False 
 lower = False 
 if len(psw) >= 8:
     for x in psw: 
-        if x in lst_seq('0','9'): 
+        if x in d: 
             digit = True 
-        if x in lst_seq('A', 'Z'): 
+        if x in b: 
             upper = True 
-        if x in lst_seq('a', 'z'): 
+        if x in a: 
             lower = True 
 print(digit , upper , lower)
