@@ -33,13 +33,13 @@ while True:
 	if comp == 1 and user == 2 or comp == 2 and user == 3 or comp == 3 and user == 1:
 		print('кампутер выиграл')
 		i+=1
-		print('comp viigral', i,'raz')	
+			
 		
 		
 	if comp ==2 and user ==1 or comp==3 and user ==2 or comp == 1 and user == 3:
 		print('ты сделал')
 		a+=1	
-		print(' ti vigral ',a,' raz')
+		
 	if i==2 or a==2:
 		break
 		
