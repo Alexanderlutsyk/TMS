@@ -39,6 +39,9 @@ for i in stask:
 		sstatus.pop(l)
 	else:
 		pass
+	print('ввведи exit для выхода из программы')
+	if input() == 'exit':
+		break
 		
 	
  
